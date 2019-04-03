@@ -105,7 +105,7 @@ def get_accuracy(test_set, predictions):
 
 
 def main():
-    filename = "C:\\Users\\Marcin\\PycharmProjects\\naive_bayes\\pima-indians-diabetes.data.csv"
+    filename = "pima-indians-diabetes.data.csv"
     split_ratio = 0.5
     data_set = load_csv(filename)
     training_set, test_set = split_data_set(data_set, split_ratio)
